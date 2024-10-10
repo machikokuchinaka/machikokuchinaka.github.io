@@ -1,0 +1,39 @@
+﻿/* Place Your Custom Styles Here */
+.background {
+    z-index: -1;
+}
+
+.font_size {
+    font-size: 0.8rem;
+    margin-top: 2.4rem;
+}
+
+.note {
+    width: 45%;
+}
+
+.logo_nav {
+    position: relative;
+}
+
+.logo_nav_img {
+    position: absolute;
+    left: -0.3rem;
+    top: -0.3rem;
+}
+
+.program {
+    position: relative;
+}
+
+.program_child {
+    position: absolute;
+}
+
+.no-border-box {
+    box-sizing: content-box !important;
+}
+
+.message {
+    width: 165%;
+}
