@@ -30,10 +30,15 @@
     position: absolute;
 }
 
-.no-border-box {
-    box-sizing: content-box !important;
-}
 
 .message {
     width: 165%;
+}
+
+.for-pc { display:block; }
+.for-sp { display:none; }
+
+@media only screen and (max-width : 767px){
+  .for-pc { display:none; }
+  .for-sp { display:block; }
 }
