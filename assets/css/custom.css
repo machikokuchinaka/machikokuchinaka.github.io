@@ -1,4 +1,4 @@
-﻿/* Place Your Custom Styles Here */
+/* Place Your Custom Styles Here */
 .background {
     z-index: -1;
 }
@@ -41,4 +41,21 @@
 @media only screen and (max-width : 767px){
   .for-pc { display:none; }
   .for-sp { display:block; }
+}
+
+
+.columns{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    font-size: 0.8rem;
+}
+
+.contact-form{
+    display: none;
+}
+
+.note_icon{
+    width: 100%;
 }
